@@ -61,7 +61,8 @@ github "alfred",     "1.1.7"
 github "dropbox",    "1.2.0"
 github "divvy",      "1.0.1"
 github "keepassx",   "1.0.0"
-github "evernote",       "2.0.5"
+github "evernote",   "2.0.5"
+github "skitch",     "1.0.2"
 
 # Dev automation
 github "vagrant",        "3.0.4"
@@ -73,7 +74,6 @@ github "transmit",       "1.0.2"
 github "webstorm",       "1.1.1"
 github "textwrangler",   "1.0.4"
 github "heroku",         "2.1.1"
-github "foreman",        "1.0.0"
 
 # Collaboration tools
 github "hipchat",        "1.1.0"

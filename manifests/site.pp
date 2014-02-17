@@ -89,6 +89,7 @@ node default {
   include dropbox
   include keepassx
   include evernote
+  include skitch
 
   # Dev automation
   include vagrant
@@ -99,8 +100,9 @@ node default {
   include transmit
   include webstorm
   include textwrangler
+
+  # Command Line Tools
   include heroku
-  include foreman
  
   # Collaboration tools  
   include hipchat
