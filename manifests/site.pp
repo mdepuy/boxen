@@ -83,6 +83,22 @@ node default {
     ]:
   }
 
+  # Dev tools
+  include mou
+  include alfred
+  include webstorm
+  include vagrant
+  include virtualbox
+  include evernote
+  include transmit
+  include hipchat
+  include dropbox
+  include heroku
+  include foreman
+  include spotify  
+
+
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir

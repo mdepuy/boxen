@@ -55,3 +55,17 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "mou",        "1.1.3"
+github "alfred",     "1.1.7"
+github "webstorm",   "1.1.1"
+github "vagrant",    "3.0.4"
+github "virtualbox", "1.0.10"
+github "evernote",   "2.0.5"
+github "transmit",   "1.0.2"
+github "hipchat",    "1.1.0"
+github "dropbox",    "1.2.0"
+github "heroku",     "2.1.1"
+github "foreman",    "1.0.0"
+github "spotify",    "1.0.1"
+
