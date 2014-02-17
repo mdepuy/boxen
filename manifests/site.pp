@@ -83,21 +83,30 @@ node default {
     ]:
   }
 
-  # Dev tools
-  include mou
+  # Productivity
   include alfred
-  include webstorm
+  include divvy
+  include dropbox
+  include keepassx
+  include evernote
+
+  # Dev automation
   include vagrant
   include virtualbox
-  include evernote
+
+  # Dev IDEs, text editors, and other tools
+  include mou
   include transmit
-  include hipchat
-  include dropbox
+  include webstorm
+  include textwrangler
   include heroku
   include foreman
+ 
+  # Collaboration tools  
+  include hipchat
+
+  # Music and other essentials
   include spotify  
-
-
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
