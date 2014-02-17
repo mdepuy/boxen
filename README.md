@@ -1,5 +1,8 @@
 # Boxen
 
+## Potential Issues
+If you are using an office computer, you should read this ticket about fixing an ['invalid group'](https://github.com/boxen/our-boxen/issues/235) problem when bootstrapping. 
+
 ## Getting Started
 
 To give you a brief overview, we're going to:
