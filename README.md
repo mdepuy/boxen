@@ -38,6 +38,9 @@ How do you do it?
 
 If you are using [`b26abd0` of boxen-web](https://github.com/boxen/boxen-web/commit/b26abd0d681129eba0b5f46ed43110d873d8fdc2)
 or newer, it will be automatically installed as part of Boxen.
+
+Command line tools can be downloaded from [here](https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-#).
+
 Otherwise, follow instructions below.
 
 #### OS X < 10.9
