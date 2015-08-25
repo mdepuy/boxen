@@ -38,30 +38,30 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.1"
-github "foreman",    "1.0.0"
-github "gcc",        "2.0.1"
-github "git",        "1.2.5"
+github "dnsmasq",    "2.0.1"
+github "foreman",    "1.2.0"
+github "gcc",        "3.0.2"
+github "git",        "2.7.92"
 github "go",         "1.0.0"
-github "homebrew",   "1.5.1"
-github "hub",        "1.0.3"
+github "homebrew",   "1.13.0"
+github "hub",        "1.4.1"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.2"
-github "nodejs",     "3.3.0"
+github "nodejs",     "5.0.0"
 github "openssl",    "1.0.0"
-github "phantomjs",  "2.0.2"
+github "phantomjs",  "3.0.0"
 github "pkgconfig",  "1.0.0"
-github "repository", "2.2.0"
-github "ruby",       "6.7.2"
-github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "repository", "2.4.1"
+github "ruby",       "8.5.2"
+github "stdlib",     "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
-github "xquartz",    "1.1.0"
+github "xquartz",    "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
 # Productivity
-github "alfred",     "1.1.7"
+github "alfred",     "1.5.0"
 github "dropbox",    "1.2.0"
 github "divvy",      "1.0.1"
 github "keepassx",   "1.0.0"
@@ -76,7 +76,7 @@ github "virtualbox",     "1.0.10"
 github "mou",            "1.1.3"
 github "transmit",       "1.0.2"
 github "webstorm",       "1.1.1"
-github "textwrangler",   "1.0.4"
+github "textwrangler",   "1.0.7", :repo => "mdepuy/puppet-textwrangler"
 github "heroku",         "2.1.1"
 
 # Collaboration tools

@@ -56,7 +56,6 @@ node default {
   include dnsmasq
   include git
   include hub
-  include nginx
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -109,7 +108,7 @@ node default {
   include hipchat
 
   # Music and other essentials
-  include spotify  
+  #include spotify  
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
